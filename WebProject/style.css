@@ -297,7 +297,7 @@ p {
 }
 
 .social-link {
-    padding: 20px;
+    margin-top: 500px;
     
 }
 
@@ -404,6 +404,22 @@ p {
 }
 
 /* Events Style */
+
+.events {
+    
+}
+
+.events-entry {
+    
+}
+
+.events-entry h2 {
+    
+}
+
+.events-content {
+    
+}
 
 
 
