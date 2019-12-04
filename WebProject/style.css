@@ -296,6 +296,11 @@ p {
    float: right;
 }
 
+.social-link {
+    padding: 20px;
+    
+}
+
 .icon-facebook img {
     width: 30px;
     height: 30px;
@@ -397,6 +402,11 @@ p {
 .demo:hover {
   opacity: 1;
 }
+
+/* Events Style */
+
+
+
 
 /* About Style */
 
