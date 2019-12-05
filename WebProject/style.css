@@ -202,7 +202,7 @@ p {
     background-color: #FFC300;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 31px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -210,8 +210,10 @@ p {
     margin: 4px 2px;
     cursor: pointer;
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 30px;
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -487,25 +489,33 @@ p {
 
 .event-post span {
     padding-bottom: 10px;
+    color: 
 }
 
-.events-content .details {
-    z-index: 1;
-    font-weight: 600;
-    position: relative; 
-    background-color: #FFC300;
-    border: none;
-    color: white;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    text-transform: uppercase;
+.button1 {
+  background-color: #D6D6D6; 
+  border: none;
+  color: white;
+  padding: 10px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
     border-radius: 30px;
-    
+}
+
+.details {
+  background-color: #D6D6D6; 
+  color: #797979; 
+  border: 1px solid #FFC300;
+}
+
+.details:hover {
+  background-color: #FFC300;
+  color: white;
 }
 
 /* About Style */
