@@ -168,7 +168,7 @@ p {
     margin: auto;
     width: 95%;
     padding: 10px;
-    margin-left: 37px;
+    margin-left: 70px;
 }
 
 .heading {
@@ -177,7 +177,7 @@ p {
     -ms-user-select: none;
     user-select: none;
     position: relative;
-    left:-18;
+    left:-1.6%;
     top:-8;
     text-align: center;
     color: white;   
@@ -185,7 +185,7 @@ p {
     text-transform: uppercase;
     margin:0;
     padding:0;
-     width: 90%;
+     width: 102%;
     height: 70%;
     background-image:url("images/ada_university.jpg");
   background-repeat: no-repeat;
