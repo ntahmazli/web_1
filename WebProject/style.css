@@ -185,7 +185,7 @@ p {
     text-transform: uppercase;
     margin:0;
     padding:0;
-     width: 1083px;
+     width: 90%;
     height: 70%;
     background-image:url("images/ada_university.jpg");
   background-repeat: no-repeat;
@@ -241,6 +241,7 @@ p {
     clear: both;
     display: table;
 }
+
 
 .club-entry {
     background-color: #fff;
@@ -411,7 +412,8 @@ p {
 }
 
 .events-entry {
-    
+  float:left;
+  display:none;
 }
 
 .event-image {
@@ -461,7 +463,6 @@ p {
     width: 400px;
     background-color: #fff;
     padding: 5px 33px 12px;
-    position: absolute;
     
 }
 
@@ -514,7 +515,8 @@ p {
     color: 
 }
 
-.button-events {
+.button-events,
+.button-filter {
   background-color: #D6D6D6; 
   border: none;
   color: white;
@@ -532,7 +534,8 @@ p {
 }
 
 
-.button-events:hover{
+.button-events:hover,
+.button-filter:hover {
   background-color: #FFC300;
   color: white;
 }
@@ -601,4 +604,5 @@ p {
   font-weight: 500;
   letter-spacing: 5px; 
 }
+
 

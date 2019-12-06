@@ -9,7 +9,7 @@
         
         <link rel="stylesheet" type="text/css" href="style.css">
         
-        <script type="text/javascript" src="main.js"></script>
+        
 
     </head>
     
@@ -38,16 +38,12 @@
             
             <div id="main">
                 <div class="events">
-                    <a href="#" class="button-events">ADAMUN</a>
-                    <a href="#" class="button-events">Book Club</a>
-                    <a href="#" class="button-events">Drama Club</a>
-                    <a href="#" class="button-events">Music Club</a>
-                    <a href="#" class="button-events">Law Society</a>
-                    <a href="#" class="button-events">Cinemates</a>
+                    <a href="#" id="adaMun" class="button-filter">ADAMUN</a>
+                    <a href="#" id="bookClub" class="button-filter">Book Club</a>
                     
                     <div class="row">
                         <div class="column">
-                            <div class="events-entry">
+                            <div id="adaMun-contents" class="events-entry">
                                 <div class="events-img">
                                     <div class="post-date">
                                         <span class="date">25</span>
@@ -69,10 +65,35 @@
                                     <a href="#" class="button-events">DETAILS</a>
                                 </div>
                             </div>
+
+                            
+                        </div>
+                        <div id="bookClub-contents" class="events-entry">
+                            <div class="events-img">
+                                <div class="post-date">
+                                    <span class="date">25</span>
+                                    <small class="month">DEC</small>
+                                </div>
+                                <img src="adamun-conf.jpg">
+                            </div>
+                            <div class="events-content">
+                                <div class="event-title">
+                                    <h3 class="title"> Movie Night </h3>
+                                    <span class="event-type">Public</span>
+                                </div>
+                                <div class="event-post">
+                                            <img src="clock.jpg"><span>&nbsp;&nbsp;Start 5pm - 9pm</span>
+                                            <br>
+                                            <img src="location.jpg"><span>&nbsp;&nbsp;ADA University, Large Auditorium</span>
+
+                                </div>
+                                <a href="#" class="button-events">DETAILS</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
