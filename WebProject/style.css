@@ -172,6 +172,10 @@ p {
 }
 
 .heading {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
     position: relative;
     left:-18;
     top:-8;
@@ -183,7 +187,7 @@ p {
     padding:0;
      width: 1083px;
     height: 70%;
-    background-image:url("images/ada-1.jpg");
+    background-image:url("images/ada_university.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -253,11 +257,11 @@ p {
 }
 
 .description h3 {
-    font-size: 17px;
+    font-size: 13px;
     margin-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    line-height: auto;
+    line-height:auto;
 }
 
 .description span {
@@ -318,6 +322,10 @@ p {
 
 .container img {
   vertical-align: middle;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .container {
@@ -425,7 +433,7 @@ p {
 .events-img .post-date {
     top: 30px;
     left: 30px;
-    z-index: 1;
+    z-index: -1;
     height: 70px;
     padding: 10px;
     min-width: 70px;
@@ -442,7 +450,6 @@ p {
 .post-date .date {
     font-weight: 900;
     font-size: 24px;
-    font-family: "Roboto", sans-serif; 
 }
 
 .post-date .month {
@@ -463,6 +470,11 @@ p {
     margin-bottom: 20px;
 }
 
+.event-type{
+    position:relative;
+    top:-7px;
+}
+
 .events-content .event-title:before {
         top: 0px;
         width: 6px;
@@ -475,15 +487,25 @@ p {
 }
 
 .event-title .title {
+        position: relative;
+        top:5px;
         font-weight: 700;
         margin-bottom: 15px;
         font-size: 18px; 
-        color: #000;
+}
+.event-title {
+    color: #2C2C2C;
 }
 
-
+.event-post{
+    position:relative;
+    top:-10px;
+    color: #a0a0a0;
+}
 
 .event-post img {
+    position: relative;
+    top:4px;
         width: 20px;
 }
 
@@ -492,7 +514,7 @@ p {
     color: 
 }
 
-.button1 {
+.button-events {
   background-color: #D6D6D6; 
   border: none;
   color: white;
@@ -504,19 +526,21 @@ p {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-    border-radius: 30px;
-}
-
-.details {
-  background-color: #D6D6D6; 
+  border-radius: 30px;
   color: #797979; 
   border: 1px solid #FFC300;
 }
 
-.details:hover {
+
+.button-events:hover{
   background-color: #FFC300;
   color: white;
 }
+.activeButton {
+    background-color: #FFC300 !important;
+  color: white !important;
+}
+
 
 /* About Style */
 

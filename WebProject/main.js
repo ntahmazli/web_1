@@ -26,6 +26,17 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-       
-    
-    
+
+var buttonElement = document.getElementById("button-events");
+        
+        buttonElement.onclick = function(){
+            
+            
+            if(buttonElement.classList.contains("activeButton")){
+                buttonElement.classList.remove("activeButton");
+            }
+            else{
+                buttonElement.classList.add("activeButton");
+            }
+            
+        }
