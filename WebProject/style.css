@@ -429,20 +429,18 @@ p {
     overflow: hidden;
     position: relative;
     margin-right: 30px;
-    z-index: -1;
 }
 
 .events-image img {
+    z-index: -1;
     width: 100px;
     height: 100%;
     overflow: hidden;
     position: relative;
-    z-index: -1;
 }
 
-.events-img .post-date {
-    top: 30px;
-    left: 30px;
+.post-date {
+    margin: 7px;
     height: 70px;
     padding: 10px;
     min-width: 70px;
@@ -463,7 +461,7 @@ p {
 
 .post-date .month {
     font-size: 16px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .events-content {
