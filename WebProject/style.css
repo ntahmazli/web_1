@@ -191,6 +191,28 @@ p {
   background-size: cover;
 }
 
+.heading-2 {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    left:-1.6%;
+    top:-8;
+    text-align: center;
+    color: white;   
+    font-size: 25px;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+     width: 102%;
+    height: 70%;
+    background-image:url("images/ada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .main-heading {
     position: absolute;
@@ -303,11 +325,6 @@ p {
    float: right;
 }
 
-.social-link {
-    margin-top: 500px;
-    
-}
-
 .icon-facebook img {
     width: 30px;
     height: 30px;
@@ -315,9 +332,9 @@ p {
 }
 
 .icon-instagram img {
-    width: 24px;
-    height: 24px;
-    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px; 
 }
 
 .container img {
@@ -419,7 +436,6 @@ p {
 
 .events-entry {
   float:left;
-  display:none;
 }
 
 .event-image {
@@ -610,4 +626,39 @@ p {
   letter-spacing: 5px; 
 }
 
+/* Contact Style */
 
+#main iframe {
+    width: 800px; 
+    height: 600px;
+    border:0;
+}
+
+.heading-3 {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    left:-1.6%;
+    top:-8;
+    text-align: center;
+    color: white;   
+    font-size: 25px;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+     width: 102%;
+    height: 70%;
+    background-image:url("images/ada-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-heading-2 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
