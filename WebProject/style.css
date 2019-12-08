@@ -191,6 +191,28 @@ p {
   background-size: cover;
 }
 
+.heading-2 {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    left:-1.6%;
+    top:-8;
+    text-align: center;
+    color: white;   
+    font-size: 25px;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+     width: 102%;
+    height: 70%;
+    background-image:url("images/ada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .main-heading {
     position: absolute;
