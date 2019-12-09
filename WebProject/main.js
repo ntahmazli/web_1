@@ -1,16 +1,6 @@
 var isFirstClick=false;
 var posts = document.getElementsByClassName("clubArea");
 function onFirstClickDisappearAll(){
-  var buttons = document.getElementsByClassName("button-filter");
-  var counter=0;
-  for(var i = 0; i<buttons.length; i++){
-    if(buttons[i].classList.contains("activeButton")){
-      counter++;
-    }
-  }
-  if(document.getElementById("milliClub").classList.contains("activeButton")){
-      document.getElementById("milliClub-contents").style.display = "none";
-    }
   if(isFirstClick==false){
     for(var i = 0; i<posts.length; i++){
       posts[i].style.display = "none";
@@ -211,16 +201,8 @@ document.getElementById("milliClub").onclick = function(){
     appearAll();
    }
   else{
-    var buttons = document.getElementsByClassName("button-filter");
-    for(var i = 0; i<buttons.length; i++){
-      if(buttons[i].classList.contains("activeButton")){
-        break;
-      }
-      if(i==buttons.length-1){
-        document.getElementById("milliClub-contents").style.display = "block";
-      }
-    }
     buttonElement.classList.add("activeButton");
+    document.getElementById("milliClub-contents").style.display = "block";
   }
 }
 document.getElementById("oikosClub").onclick = function(){

@@ -264,7 +264,7 @@ p {
 }
 
 
-.club-entry {
+.clubArea {
     background-color: #fff;
     width: 280px;
 }
@@ -665,4 +665,9 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
+}
+
+.contact-icon {
+    width: 90px;
+    height: 90px;
 }
