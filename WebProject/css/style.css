@@ -163,6 +163,27 @@ p {
   }
 }
 
+.heading-4 {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    left:-1.6%;
+    top:-8;
+    text-align: center;
+    color: white;   
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    width: 102%;
+    height: 70%;
+    background-image: url("../images/ada_university.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .clubs {
     margin: auto;
     width: 95%;
@@ -186,7 +207,7 @@ p {
     padding:0;
      width: 102%;
     height: 70%;
-    background-image:url("images/ada_university.jpg");
+    background-image:url("../images/ada_university.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -207,7 +228,7 @@ p {
     padding:0;
      width: 102%;
     height: 70%;
-    background-image:url("images/ada.jpg");
+    background-image:url("../images/ada.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -394,12 +415,7 @@ p {
   top: 0;
 }
 
-.caption-container {
-  text-align: center;
-  background-color: #2C2C2C;
-  padding: 2px 16px;
-  color: white;
-}
+
 
 .row-1:after {
   content: "";
@@ -650,13 +666,13 @@ p {
     color: white;   
     font-size: 25px;
     text-transform: uppercase;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
      width: 102%;
     height: 70%;
-    background-image:url("images/ada-4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../images/ada-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-heading-2 {
@@ -667,11 +683,18 @@ p {
     padding: 40px;
 }
 
+#contact {
+    padding: 24px;
+}
+
+#contact p {
+    float: left;
+    padding-left: 15px;
+    color: #545454;
+}
+
 .contact-icon {
     width: 70px;
     height: 70px;
-}
-
-.column-3 {
-    float: right;
+    float: left !important;
 }
