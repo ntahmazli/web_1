@@ -164,8 +164,8 @@ p {
     -ms-user-select: none;
     user-select: none;
     position: relative;
-    left:-1.6%;
-    top:-8;
+    left: -1.6%;
+    top: -1%;
     text-align: center;
     color: white;   
     font-size: 25px;
@@ -176,6 +176,11 @@ p {
     height: 70%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#image-title {
+    position: relative;
+    top: -1%;
 }
 
 .clubs {
