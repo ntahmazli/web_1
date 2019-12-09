@@ -33,11 +33,6 @@ p {
   margin-bottom: 1.5em;
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-
 #page {
     width: 100%;
     position: relative; 
@@ -179,7 +174,6 @@ p {
     padding: 0;
     width: 102%;
     height: 70%;
-    background-image: url("../images/ada_university.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -207,7 +201,7 @@ p {
     padding:0;
      width: 102%;
     height: 70%;
-    background-image:url("../images/ada_university.jpg");
+    background-image:url("../images/ada-5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -652,6 +646,8 @@ p {
     width: 800px; 
     height: 600px;
     border:0;
+    padding-top: 30px;
+    margin-left: 110px;
 }
 
 .heading-3 {
@@ -670,7 +666,7 @@ p {
     padding: 0;
      width: 102%;
     height: 70%;
-    background-image: url("../images/ada-5.jpg");
+    background-image: url("../images/ada-4.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -685,16 +681,17 @@ p {
 
 #contact {
     padding: 24px;
+    margin-left: 40px;
 }
 
-#contact p {
+#contact span {
     float: left;
     padding-left: 15px;
     color: #545454;
 }
 
 .contact-icon {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     float: left !important;
 }
