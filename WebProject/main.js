@@ -166,19 +166,6 @@ document.getElementById("historyClub").onclick = function(){
     document.getElementById("historyClub-contents").style.display = "block";
   }
 }
-document.getElementById("hyoumanity").onclick = function(){
-  onFirstClickDisappearAll();
-  var buttonElement = document.getElementById("hyoumanity");
-  if(buttonElement.classList.contains("activeButton")){
-    buttonElement.classList.remove("activeButton");
-    document.getElementById("hyoumanity-contents").style.display = "none";
-    appearAll();
-   }
-  else{
-    buttonElement.classList.add("activeButton");
-    document.getElementById("hyoumanity-contents").style.display = "block";
-  }
-}
 document.getElementById("lawSociety").onclick = function(){
   onFirstClickDisappearAll();
   var buttonElement = document.getElementById("lawSociety");
