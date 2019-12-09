@@ -436,6 +436,7 @@ p {
 
 .events-entry {
   float:left;
+  margin:2.4%;
 }
 
 .event-image {
@@ -467,7 +468,9 @@ p {
 
 .post-date .date, .post-date .month {
     display: block;
-    color: #ffffff; 
+    color: #ffffff;
+    position: relative;
+    top:-9px;
 }
 
 .post-date .date {
@@ -517,6 +520,7 @@ p {
 }
 .event-title {
     color: #2C2C2C;
+    height: 120px;
 }
 
 .event-post{
